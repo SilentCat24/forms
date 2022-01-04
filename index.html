@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./styles/style.css">
+  <!-- <link rel="stylesheet" href="./styles/normalize.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="logo">
+        <img src='./images/logo.svg' alt='image' />
+
+      </div>
+      
+       <div class="image">
+        <img src='./images/illustration.svg' alt="thr is a image" class="images"/>
+      </div> 
+      
+      <div class="text">
+        Start for free & get     <br/>
+        attractive offers today! 
+      </div>
+
+
+
+
+    </div>
+   
+<form  id="form">
+  <h2 class="title">Get Started</h2> 
+
+  <div class="question">Already have an account <br/>
+<h4>Sign in </h4>
+</div>
+
+<div class="btn">
+<div class="btn-1"><img src="https://img.icons8.com/cute-clipart/26/000000/google-logo.png"/>
+  <a href='https://www.gmail.com' target="____/blank">SignUp</a>  </div>
+<div class="btn-2"><img src="https://img.icons8.com/color/30/000000/facebook-new.png" /><a href='https://www.facebook.com' target="____/blank">SignUp</a></div>
+</div>
+ <div class="or">Or</div>
+
+ <div>
+<label for="username">username</label>
+<i class="fas fa-user"></i>
+<input type="text" name="username"  id="username" placeholder="username"  />
+<i class="fas fa-exclamation failure-icon"></i>
+<i class="fas fa-check-circle success-icon"></i>
+<div class="error"></div>
+</div>
+
+<div>
+<label for="email">Email</label>
+<i class="fas fa-envelope"></i>
+<input type="email" name="Email" id='email' placeholder='abc@.com'>
+<i class="fas fa-exclamation failure-icon"></i>
+<i class="fas fa-check-circle success-icon"></i>
+<div class="error"></div>
+</div>
+
+<div>
+  <label for="password">password</label>
+  <i class="fas fa-lock"></i>
+  
+  <input type="password" name="password"  id="password" placeholder="password"/>
+  <span class="eye" onclick=show()>
+     <i id="hide" class="fas fa-eye-slash"></i> <br/>
+  
+  </span>
+
+  <i class="fas fa-exclamation failure-icon"></i>
+  <i class="fas fa-check-circle success-icon "></i>
+  
+  <div class="error"></div>
+</div>
+
+<div>
+<label for="confrimPassword">Confirm password</label>
+<input type="password" id="confirmPassword" placeholder="confirm password" >
+<i class="fas fa-exclamation failure-icon"></i>
+  <i class="fas fa-check-circle success-icon "></i>
+  <div class="error"></div>
+</div>
+
+<button type='submit' id='submit'>Submit</button>
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+<script src="./script.js"></script>
+</body>
+</html>
